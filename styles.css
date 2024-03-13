@@ -1,0 +1,93 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#top{
+    background-color: darkolivegreen;
+    display:flex;
+    flex-direction: row;
+    gap: 450px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+#collection{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+#inspo{
+    display: flex;
+    flex-direction: column;
+}
+#oneplant{
+    display: flex;
+    flex-direction: row;
+}
+
+#twoplants{
+    display: flex;
+    flex-direction: row;
+}
+
+#sale{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10%;
+}
+
+#first3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#second3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#allplants{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+}
+
+.middle{
+    text-align: center;
+}
+
+button{
+    background-color: darkolivegreen;
+    color: white
+}
+#tree{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+@media(min-width: 768px){
+    #top{
+        background-color: darkolivegreen;
+        display:flex;
+        flex-direction: wrap;
+     
+    }
+    
+
+}
